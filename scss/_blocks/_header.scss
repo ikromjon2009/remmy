@@ -5,19 +5,18 @@
 
 .header_link {
   display: flex;
-  text-decoration: none;
-  list-style: none;
-  color: black;
   gap: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+.header_link li a {
+  text-decoration: none;
+  color: black;
   margin-top: 12px;
 }
 
-.btn-primary {
-  width: 152px;
-  height: 40px;border-radius: 12px;
-  background-color: rgba(61, 85, 249, 1); 
-  border: none;
-}
+
 
 .header_df {
   display: flex;
