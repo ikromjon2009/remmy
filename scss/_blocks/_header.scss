@@ -1,4 +1,8 @@
 .header_nav {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
 }
@@ -15,8 +19,6 @@
   color: black;
   margin-top: 12px;
 }
-
-
 
 .header_df {
   display: flex;

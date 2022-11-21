@@ -2,9 +2,20 @@
   background-color: rgba(61, 85, 249, 1);
   padding: 11px 20px;
   width: 100px;
-  height: 20px;
+  height: 25px;
+  text-align: center;
   border-radius: 12px;
   border: none;
   text-decoration: none;
   color: white;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: aqua;
+  }
+
+  &:active {
+    background-color: blue;
+  }
+
 }

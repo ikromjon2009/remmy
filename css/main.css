@@ -4,6 +4,10 @@
 }
 
 .header_nav {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
 }
@@ -30,11 +34,23 @@
   background-color: rgb(61, 85, 249);
   padding: 11px 20px;
   width: 100px;
-  height: 20px;
+  height: 25px;
+  text-align: center;
   border-radius: 12px;
   border: none;
   text-decoration: none;
   color: white;
+  margin-top: 10px;
+}
+.btn-primary:hover {
+  background-color: aqua;
+}
+.btn-primary:active {
+  background-color: blue;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .main_width-1 {
@@ -54,6 +70,7 @@
 
 .main_finally {
   display: flex;
+  margin-top: 100px;
 }
 
 .main_finally2 {
@@ -110,13 +127,16 @@
 }
 
 .discover_track {
-  width: 25px;
-  height: 25px;
+  width: 56px;
+  height: 56px;
   background-color: rgb(61, 85, 249);
   border-radius: 50%;
   display: inline-block;
   text-align: center;
   align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
   color: wheat;
 }
 
@@ -164,6 +184,28 @@
   display: flex;
   margin-top: 234px;
   gap: 266px;
+}
+
+.ance_kitob_img {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ance_kitob_img::before {
+  content: url(../../img/Kitob.svg);
+  width: 48px;
+  height: 48px;
+}
+
+.kosa_img {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.kosa_img::before {
+  content: url(../../img/Maydalagich.svg);
+  width: 48px;
+  height: 48px;
 }
 
 .ance_text {
